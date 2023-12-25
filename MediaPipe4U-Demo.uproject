@@ -1,0 +1,68 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.3",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MediaPipe4U_Demo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "MediaPipe4U",
+			"Enabled": true
+		},
+		{
+			"Name": "GStreamer",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4UGStreamer",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4ULiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4UBVH",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4UNvAR",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4USpeech",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4ULLM",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4ULLMSpeech",
+			"Enabled": true
+		}
+	]
+}
